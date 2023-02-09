@@ -12,4 +12,3 @@ def task_wait_random(max_delay: int) -> Task:
         Task: Task Object
     """
     return create_task(wait_random(max_delay))
-
